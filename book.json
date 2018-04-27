@@ -1,0 +1,50 @@
+{
+  "title": "MTools 软件手册",
+  "description": "MTools是由蓝鲸智能机器人公司研发的轮毂无刷电机上位机配置和调试软件",
+  "language": "zh",
+  "gitbook": "3.x.x",
+  "plugins": [
+    "github",
+    "editlink",
+    "prism",
+    "downloadpdf",
+    "yahei",
+    "katex",
+    "-search"
+  ],
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/BlueWhaleRobot/mtools-doc"
+    },
+    "editlink": {
+      "base": "https://github.com/BlueWhaleRobot/mtools-doc/edit/master",
+      "label": "编辑本页"
+    },
+    "sharing": {
+      "weibo": true,
+      "twitter": false,
+      "facebook": false
+    },
+    "downloadpdf": {
+      "base": "https://doc.bwbot.org/pdf/mtools-doc",
+      "label": "下载PDF",
+      "multilingual": false
+    },
+    "fontSettings": {
+      "theme": "white",
+      "family": "msyh",
+      "size": 2
+    }
+  },
+  "pdf": {
+    "pageNumbers": true,
+    "fontSize": 12,
+    "paperSize": "a4",
+    "margin": {
+      "right": 30,
+      "left": 30,
+      "top": 30,
+      "bottom": 50
+    }
+  }
+}

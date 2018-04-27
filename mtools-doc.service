@@ -1,0 +1,11 @@
+[Unit]
+Description=mtools gitbook service
+
+[Service]
+Type=simple
+User=bwbot
+WorkingDirectory=/home/bwbot/data/src/gitbook/mtools-doc
+ExecStart=/usr/local/bin/gitbook --port 22230 serve
+
+[Install]
+WantedBy=multi-user.target
