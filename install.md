@@ -1,7 +1,7 @@
 # <a href="#" id="install"></a>1.1 软件安装
 打开驱动器资料包，如下图所示
 
-![资料包](../images/zlb.png)
+![资料包](/images/zlb.png)
 
 先双击安装MTools运行依赖包1.exe 、MTools运行依赖包2.exe，配置好软件运行依赖环境。
 
@@ -13,6 +13,6 @@ MTools.exe软件和驱动器通信连接方式是TTL串口，串口波特率为 
 
 对于windows系统，usb转串口模块的驱动有一个延时参数，默认值不合理时会导致驱动器上传数据不能及时处理，请根据下图设置成最小值（如果不存在这个选项则不用设置）。
 
-![usb-1](../images/usb-1.png)
-![usb-2](../images/usb-2.png)
-![usb-3](../images/usb-3.png)
+![usb-1](/images/usb-1.png)
+![usb-2](/images/usb-2.png)
+![usb-3](/images/usb-3.png)
