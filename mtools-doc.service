@@ -5,7 +5,7 @@ Description=mtools gitbook service
 Type=simple
 User=bwbot
 WorkingDirectory=/home/bwbot/data/src/gitbook/mtools-doc
-ExecStart=/usr/local/bin/gitbook --port 22230 serve
+ExecStart=/usr/local/bin/gitbook --port 22231 serve
 
 [Install]
 WantedBy=multi-user.target
